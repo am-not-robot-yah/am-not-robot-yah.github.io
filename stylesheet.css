@@ -18,14 +18,14 @@ h1 {
   outline: 8px solid #d1001c;
 outline-offset: px;
   background-color: #4b0082;
+  overflow: hidden;
 }
 
 #body2{
   outline: 9px solid #d5001c;
   outline-offset: px;
   background-color: #7f0072;
-
-  
+  overflow: hidden;
 }
 h2{
   color: #ffff00;
@@ -118,9 +118,7 @@ color : #333;
 #hassive_goose{
   height: 25%;
 }
-#body3{
-  background-color: #AA94DC;
-}
+
 #side-bar2{
   float: left;
   display: block;
@@ -132,4 +130,5 @@ color : #333;
   outline: 9px solid #6A5ACD;
 outline-offset: px;
   background-color: #AA94DC;
+  overflow: hidden;
 }
