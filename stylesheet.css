@@ -15,7 +15,7 @@ h1 {
 
 
 #body1 {
-  outline: 9px solid #d1001c;
+  outline: 8px solid #d1001c;
 outline-offset: px;
   background-color: #4b0082;
 }
@@ -117,4 +117,19 @@ color : #333;
 }
 #hassive_goose{
   height: 25%;
+}
+#body3{
+  background-color: #AA94DC;
+}
+#side-bar2{
+  float: left;
+  display: block;
+  background-color: #6A5ACD;
+  height: 104%;
+  width: 14.6%;
+}
+#body3 {
+  outline: 9px solid #6A5ACD;
+outline-offset: px;
+  background-color: #AA94DC;
 }
