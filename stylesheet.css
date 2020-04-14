@@ -1,5 +1,5 @@
 h1 {
-  
+  border-radius: 25px;
   color: #ffff00;
   border: 10px ridge #ffff00;
   
@@ -36,6 +36,7 @@ outline-offset: px;
 h2{
   color: #ffff00;
   border: 10px ridge #ffff00;
+  border-radius: 25px;
 }
 
 ul {
