@@ -136,3 +136,7 @@ outline-offset: px;
   background-color: #AA94DC;
   overflow: hidden;
 }
+
+#worm-wiggle {
+  float:middle
+}
