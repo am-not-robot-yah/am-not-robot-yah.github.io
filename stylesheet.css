@@ -1,5 +1,5 @@
 h1 {
-  border-radius: 25px;
+  
   color: #ffff00;
   border: 10px ridge #ffff00;
   
@@ -26,11 +26,12 @@ outline-offset: px;
   overflow: hidden;
 }
 
+  
 #body2{
   outline: 9px solid #d5001c;
   outline-offset: px;
   background-color: #7f0072;
-  overflow: hidden;
+  
 }
 h2{
   color: #ffff00;
