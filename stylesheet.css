@@ -136,6 +136,11 @@ outline-offset: px;
   background-color: #AA94DC;
   overflow: hidden;
 }
+#game-body{
+ outline: 9px solid #6A5ACD;
+outline-offset: px;
+  background-color: #AA94DC;
+}
 
 #worm-wiggle {
   float: middle;
