@@ -36,8 +36,23 @@
    </ul>
 <ul id="side-bar">
  <color="teal"></color></color> 
-   <button class="button button2">Hover Here If Wiggle Worm Doesnt Show</button>
-  </ul>
+  <button onclick="myFunction()">Help</button>
+
+<div id="myDIV">
+You Have To Open This In Microsoft Edge and Make The Website Trusted
+</div>
+  <script>
+function myFunction() {
+  var x = document.getElementById("myDIV");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+   
+   </ul>
     
           <iframe id="worm-wiggle" src="http://www.staggeringbeauty.com/" allowfullscreen="" frameborder="0" height="698" width="1024"></iframe>
 </body>
