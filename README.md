@@ -1,2 +1,2 @@
-# am-not-robot-yah.github.io
+# am-not-robot-yah.goose.github.io
 goosmeme
