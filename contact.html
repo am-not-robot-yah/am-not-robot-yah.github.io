@@ -21,72 +21,49 @@
       
 
 
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
+<form id="form_id" name="form_name" action="" method="post">
 
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
-}
+  <div>
+<input type="text" name="name" id="name" placeholder="Name" required/>
+  </div>
+<div>
+<input type="email" name="email" id="email" placeholder="Email" required/>
+  </div>
+<div>
+<input type="tel" name="tel" id="tel" placeholder="Phone" required/>
+  </div>
 
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-input[type=submit]:hover {
-  background-color: #45a049;
-}
-
-.container {
-  border-radius: 5px;
-  background-color: white;
-  padding: 20px;
-}
-</style>
-</head>
-<body>
-
-<h3>.</h3>
-
-<div class="container">
-  <form action="/action_page.php">
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    <label for="country">Country</label>
-    <select id="country" name="country">
-      <option value="australia">New Zealand</option>
-      <option value="canada">Canada</option>
-      <option value="usa">Old Zealand</option>
-      <option value="usa">Slightly Used Zealand</option>
-      <option value="usa">The Zealand That Dropped Out Of School</option>
-    </select>
-
-    <label for="subject">Put Your Credit Card Information Here
-   
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
- <input type="text" id="subject" name="suubject" required></label>
-    <input type="submit" value="Submit" >
-  </form>
+<div>
+  <select required id="Card">
+<option selected>Card Type...</option>
+<option value="Visa">Visa</option>
+<option value="Debit">Debit</option>
+<option value="Other">Other</option>
+  </select> 
 </div>
 
-</body>
-</body>
+  <div>
+    <label for="range1">Country</label>
+    <select id="country" name="country">
+      <option value="New Zealand">New Zealand</option>
+      <option value="Canada">Canada</option>
+      <option value="Old Zealand">Old Zealand</option>
+      <option value="Slightly Used Zealand">Slightly Used Zealand</option>
+      <option value="The Zealand That Dropped Out Of School">The Zealand That Dropped Out Of School</option>
+    </select>
+  </div>
 
-</head>
+
+
+<div>
+<label for="message">Additional Information: </label><br/>
+<p>(Please use this space to tell us about your company, the main objectives of the proposed website and anything else you think might be useful)</p>
+<textarea name="message" id="message" rows="5" cols="30" placeholder="Message" required></textarea>
+  </div>
+
+<div>
+<input type="submit" name="send" value="submit" />
+  </div>
+
+</form>
+<p id="feedback"><?php echo $feedback; ?></p>
