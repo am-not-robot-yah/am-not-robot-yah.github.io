@@ -62,10 +62,11 @@
 
 		</style>
 
-<input type="text" onkeypress="myFunction()">
+<input type="text" onkeydown="isKeyPressed(event)">
 
 		<script type="text/javascript">
-function myFunction() {
+function isKeyPressed(event) {
+	if (event.ctrlKey) {
 
 			
 
@@ -228,7 +229,7 @@ function myFunction() {
 					}
 				}
 			}
-
+}
 
 		</script>
 	</head>
