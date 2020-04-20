@@ -62,11 +62,14 @@
 
 		</style>
 
-<input type="text" onkeydown="isKeyPressed(event)">
 
-		<script type="text/javascript">
-document.getElementById("demo").onclick = function() {myFunction()};
-function myFunction() {
+
+<script type="text/javascript">    
+function whichButton(buttonElement){
+  alert(buttonElement.id);
+  var buttonClickedId = buttonElement.id;
+  if( buttonClickedId === 'btn1' ){
+
 
 			
 
@@ -229,9 +232,12 @@ function myFunction() {
 					}
 				}
 			}
+ else{
 
+  }
 
 		</script>
+	    <button id="btn1" onclick="whichButton(this)">Button 1</button><br/>
 	</head>
 
 	<body onload="init()">
