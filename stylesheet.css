@@ -119,6 +119,47 @@ li.dropdown {
   width: 14.6%;
 }
 
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+input [type=tel], select, input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+button[type=submit]:hover {
+  display: flex;
+  justify-content: center;
+  background-color: #45a049;
+   margin: 0 auto;
+   width: 144px;
+}
+button[type=submit]{
+    display: flex;
+  justify-content: center;
+   margin: 0 auto;
+   width: 144px;
+}
+
 h3{
 color : #333;
 }
