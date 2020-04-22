@@ -8,9 +8,7 @@
 </head>
 
 
-<header>
-  <h2>Cities</h2>
-</header>
+
 
 <section>
 <ul>
@@ -25,25 +23,20 @@
   <li><a href="game.html">Game</a></li>
    <li><a href="index.html">Home</a></li>
     </ul>
-
+<div class="container">
 <form
   action="https://formspree.io/xnqbwgvd"
   method="POST"
 >
-  <label>
+  <label id=l1>
     Your email:
-    <input type="text" name="_replyto">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
+    <input type="text" name="_replyto" placeholder="Write something.. "style="width:494px">
   </label>
 
-<div>
-<input type="tel" name="tel" id="tel" placeholder="Phone" required/>
-  </div>
 
-  <div>
+
+
+  <div id=l3>
     <label for="range1">Country</label>
     <select id="country" name="country">
       <option value="New Zealand">New Zealand</option>
@@ -51,13 +44,22 @@
       <option value="Old Zealand">Old Zealand</option>
       <option value="Slightly Used Zealand">Slightly Used Zealand</option>
       <option value="The Zealand That Dropped Out Of School">The Zealand That Dropped Out Of School</option>
-    </select>
+   
+   <div id=l2>
+<input type="tel" name="tel" id="tel" placeholder="Phone" required/>
   </div>
-
-
-  <button type="submit">Send</button>
+   
+    <label id=l4>
+    <textarea name="message" placeholder="Write something.."style="height:200px"></textarea>
+      </select>  
+  </label>
+    <button type="submit">Send</button>
 </form>
 </section>
+  </div>
+</section>
+
+
 
 </body>
 </html>
