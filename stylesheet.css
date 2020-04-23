@@ -226,3 +226,12 @@ outline-offset: px;
   color: white;
   background-color: transparent;
 }
+
+#star {
+  animation: cssAnimation 0s 5s forwards;
+  visibility: hidden;
+}
+
+@keyframes cssAnimation {
+  to   { visibility: visible; }
+}
