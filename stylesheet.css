@@ -208,3 +208,21 @@ outline-offset: px;
   background-color: lightblue;
   margin-top: 20px;
 }
+#a1:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+#a1:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+#a1:hover {
+  color: white;
+  background-color: transparent;
+}
+#a1:active {
+  color: white;
+  background-color: transparent;
+}
