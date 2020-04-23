@@ -228,14 +228,11 @@ outline-offset: px;
 }
 
 #star {
-  animation: cssAnimation-star 0s 5s forwards;
+  animation: cssAnimation 0s 5s forwards;
   visibility: hidden;
-  animation: cssAnimation-star2 0s 20s forwards;
 }
 
-@keyframes cssAnimation-star {
+@keyframes cssAnimation {
   to   { visibility: visible; }
 }
-@keyframes cssAnimation-star2 {
-  to   { visibility: hidden; }
-}
+
